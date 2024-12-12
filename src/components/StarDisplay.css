@@ -1,0 +1,22 @@
+.star-display {
+    display: flex;
+  }
+  
+  .star {
+    font-size: 1.2rem;
+    margin-right: 4px;
+  }
+  
+  .star.filled {
+    color: #ffc107; /* Gold for filled stars */
+  }
+  
+  .star.half {
+    color: #ffc107; /* Same gold as filled stars */
+    opacity: 0.5; /* Use opacity to differentiate half stars */
+  }
+  
+  .star.empty {
+    color: #ccc; /* Light gray for empty stars */
+  }
+  

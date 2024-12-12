@@ -1,0 +1,21 @@
+.sidebar-filter {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Light gray background for filters */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .sidebar-filter-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .sidebar-filter-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between child components */
+  }
+  

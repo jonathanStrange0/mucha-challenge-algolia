@@ -1,0 +1,52 @@
+.ais-RatingMenu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ais-RatingMenu-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.ais-RatingMenu-item--selected {
+  font-weight: bold;
+}
+
+.ais-RatingMenu-item--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.ais-RatingMenu-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.ais-RatingMenu-starIcon {
+  width: 16px; /* Set a consistent size */
+  height: 16px;
+  margin-right: 4px;
+}
+
+.ais-RatingMenu-starIcon--full {
+  fill: #ffc107; /* Gold color for filled stars */
+  width: 16px; /* Set a consistent size */
+  height: 16px;
+  margin-right: 4px;
+}
+
+.ais-RatingMenu-starIcon--empty {
+  fill: #ddd; /* Light gray for empty stars */
+  width: 16px; /* Set a consistent size */
+  height: 16px;
+  margin-right: 4px;
+}
+
+.ais-RatingMenu-count {
+  margin-left: auto;
+  color: #888;
+}
