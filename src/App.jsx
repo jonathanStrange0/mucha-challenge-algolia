@@ -44,7 +44,7 @@ const Hit = ({ hit }) => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/mucha-challenge-algolia">
       <Routes>
         <Route
           path='/'
